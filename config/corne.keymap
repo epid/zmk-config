@@ -39,9 +39,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
 			bindings = <
-   &kp  ESC &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT    &kp CRRT        &kp AMPS      &kp KMLT       &kp LPRN       &kp RPRN  &kp BKSP
-   &kp LCTL &trans    &trans    &trans    &trans    &trans      &kp MINUS       &kp EQL       &kp LBKT       &kp RBKT       &kp PIPE  &trans
-   &kp LSFT &trans    &trans    &trans    &trans    &trans      &mkp LSFT MINUS &mkp LSFT EQL &mkp LSFT LBKT &mkp LSFT RBKT &kp BSLH  &trans
+   &kp  ESC &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT    &kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN &kp BKSP
+   &kp LCTL &trans    &trans    &trans    &trans    &trans      &kp MINUS &kp EQL  &kp LBKT &kp RBKT &kp PIPE &trans
+   &kp LSFT &trans    &trans    &trans    &trans    &trans      &trans    &trans   &trans   &trans   &trans   &trans
                                       &kp LGUI &trans &kp SPC   &kp RET &trans &kp RALT
 			>;
 		};
